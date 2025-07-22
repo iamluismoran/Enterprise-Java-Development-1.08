@@ -1,6 +1,10 @@
 package org.example;
 
 import java.math.BigDecimal;
+
+import org.example.VideoStreamingService.Movie;
+import org.example.VideoStreamingService.TvSeries;
+import org.example.VideoStreamingService.Video;
 import org.example.cars.Car;
 import org.example.cars.Sedan;
 import org.example.cars.Truck;
@@ -32,6 +36,14 @@ public class Main {
         System.out.println(suv.getInfo());
 
         // Video Streaming
+
+        Video movie = new Movie("Interestellar", 169, 9.4);
+        Video series = new TvSeries("The Handmaids Tale", 50,56);
+
+        System.out.println("Información de videos:");
+        System.out.println(movie.getInfo());
+        System.out.println(series.getInfo());
+        
     }
 
 }
