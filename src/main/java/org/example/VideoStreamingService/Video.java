@@ -10,6 +10,6 @@ public abstract class Video {
     }
 
     public String getInfo() {
-        return "Título: " + ", Duración: " + duration + " min";
+        return "Título: " + title + ", Duración: " + duration + " min";
     }
 }
