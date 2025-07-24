@@ -31,12 +31,12 @@ public class Main {
 
         Car Sedan = new Sedan("1A2B3C", "Toyota", "Corolla", 120000);
         Car Truck = new Truck("456DEF", "Ford", "F-150", 80000, 5000.5);
-        Car suv = new UtilityVehicle("7H8I9J", "Jeep", "Wrangler", 90000, true);
+        Car uv = new UtilityVehicle("7H8I9J", "Jeep", "Wrangler", 90000, true);
 
         System.out.println("\nInformacion de autos:");
         System.out.println(Sedan.getInfo());
         System.out.println(Truck.getInfo());
-        System.out.println(suv.getInfo());
+        System.out.println(uv.getInfo());
 
         // Video Streaming
 
