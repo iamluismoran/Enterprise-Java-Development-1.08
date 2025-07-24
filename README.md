@@ -4,7 +4,7 @@ Este proyecto contiene ejercicios prácticos de Programación Orientada a Objeto
 
 ---
 
-## Tecnologoías Utilizadas
+## Tecnologías Utilizadas
 
 - IntelliJ IDEA
 - Git & GitHub
@@ -16,7 +16,6 @@ Este proyecto contiene ejercicios prácticos de Programación Orientada a Objeto
 Se realizaron operaciones como redondeo (`setScale`) y diferentes modos de redondeo como:
 
 - `RoundingMode.HALF_UP`
-- `RoundingMode.DOWN`
 
 ---
 
@@ -47,7 +46,7 @@ Cada subclase implementa su propia versión del método `getInfo()`.
 
 ---
 
-### 4. IntList – Implementación Personalizada de Lista de Enteros
+### 4. IntList Interface
 
 Se creó una interfaz `IntList` con dos métodos:
 
@@ -78,7 +77,7 @@ for (int i = 0; i < 20; i++) {
     listaPequena.add(i);
 }
 System.out.println("Elemento en posición 5: " + listaPequena.get(5));
-
+```
 
 #### Ejemplo de IntVector:
 ```java
